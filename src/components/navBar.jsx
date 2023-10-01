@@ -1,5 +1,4 @@
 import { useContext, useState } from 'react'
-import logo from '../img/Oladhimeji_fav.jpg'
 import switch1 from '../img/icon/switch1.svg'
 import switch2 from '../img/icon/switch2.svg'
 import Container from './container'

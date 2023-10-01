@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import Container from "../components/container";
-import reactLogo from '../img/dhim.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { ThemeContext } from '../context/theme';

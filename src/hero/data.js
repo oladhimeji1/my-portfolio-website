@@ -1,7 +1,4 @@
 
-import reactLogo from '../img/IMG_1041.jpg';
-import viteLogo from '../img/dim.jpg';
-
 export const data = [
     {
         id: 1,
