@@ -7,13 +7,13 @@ export const data = [
         id: 1,
         title: "I'm Abdulrazaq Oladimeji",
         desc: "I have passion for building intuitive, user-friendly interfaces that provide an enjoyable and seamless user experience.",
-        img: reactLogo,
+        img: 'https://res.cloudinary.com/dqjkwyzgx/image/upload/v1696166885/IMG_1041_i7pdzc.jpg',
     },
     {
         id: 2,
         title: 'Frontend ReactJs Developer',
         desc: 'I write clean, readable, scalable and reuseable codes.',
-        img: viteLogo,
+        img: 'https://res.cloudinary.com/dqjkwyzgx/image/upload/v1696166885/dim_wzowte.jpg',
     },
 ]
 

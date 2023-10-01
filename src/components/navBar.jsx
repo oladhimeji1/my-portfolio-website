@@ -48,7 +48,7 @@ export default function Navbar() {
             <nav className="md:flex block justify-between items-center py-5">
                 <div className="flex items-center justify-between">
                 <div className="flex items-center justify-center">
-                    <img src={logo} className="h-[30px] max-w-[30px] rounded-full mr-3" alt="" />
+                    <img src='https://res.cloudinary.com/dqjkwyzgx/image/upload/v1696167375/Oladhimeji_fav_rxwxgg.jpg' className="h-[30px] max-w-[30px] rounded-full mr-3" alt="" />
                     <span className="font-medium">Abdulrazaq Oladimeji</span>
                 </div>
 

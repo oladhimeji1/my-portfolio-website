@@ -26,7 +26,7 @@ export default function About() {
 
                     <div className="block md:flex justify-between mt-10 md:mt-20">
                         <div data-aos='fade-right' className="md:w-[80%] w-full">
-                            <img src={reactLogo} className="h-[350px] md:w-[80%] w-full object-cover" alt="" />
+                            <img src='https://res.cloudinary.com/dqjkwyzgx/image/upload/v1696166885/dhim_c5kyvz.jpg' className="h-[350px] md:w-[80%] w-full object-cover" alt="" />
                         </div>
                         <div data-aos='fade-left' className="max-w-[550px]">
                             <div className="md:px-2 pb-5 md:pb-0 mt-5 md:mt-0">
