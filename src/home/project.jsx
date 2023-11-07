@@ -32,11 +32,11 @@ export default function Project() {
                         ))}
                     </div>
                         
-                    <div className="absolute hover:text-red-500 flex items-center animate-bounce font-semibold bottom-0 right-2">
-                        <a className="inline" href="">See more</a>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-5 mt-1 inline" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <div className="max-w-full mt-5 animate-bounce font-semibold">
+                        <a className="inline " href="">See all
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 inline" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                         <polyline points="9 18 15 12 9 6" />
-                        </svg>
+                        </svg></a>
                     </div>
                 </section>
             </Container>

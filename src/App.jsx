@@ -11,8 +11,10 @@ import { ThemeContext } from './context/theme';
 import { useContext } from 'react'
 
 function App() {
+  const { isLightTheme, light, dark } = useContext(ThemeContext);
+    const theme = isLightTheme ? light : dark;
   return (
-    <>
+    <div style={{ background: theme.bg}}>
       <Navbar />
       <Carousel />
       <About />
@@ -20,7 +22,7 @@ function App() {
       <Project />
       <Contact />
       <Footer />
-    </>
+    </div>
   )
 }
 

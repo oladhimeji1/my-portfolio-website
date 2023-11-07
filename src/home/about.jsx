@@ -10,7 +10,7 @@ export default function About() {
     useEffect(()=>{
         AOS.init({duration: 1000})
     document.addEventListener('aos:in:about', ({detail}) => console.log(5555));
-    console.log(777)
+    // console.log(777)
     }, []);
     const { isLightTheme, light, dark } = useContext(ThemeContext);
     const theme = isLightTheme ? light : dark;

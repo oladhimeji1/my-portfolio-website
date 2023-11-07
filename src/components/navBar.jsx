@@ -51,36 +51,43 @@ export default function Navbar() {
                     <span className="font-medium">Abdulrazaq Oladimeji</span>
                 </div>
 
-                <div
-                onClick={toggleNav}
-                 className="cursor-pointer md:hidden">
-                {!openNav ? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-  <line x1="3" x2="21" y1="12" y2="12" />
-  <line x1="3" x2="21" y1="6" y2="6" />
-  <line x1="3" x2="21" y1="18" y2="18" />
-</svg> : 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-  <line x1="18" x2="6" y1="6" y2="18" />
-  <line x1="6" x2="18" y1="6" y2="18" />
-</svg>}
-                </div>
-                </div>
+                <div className="flex justify-between md:hidden items-center">
+                    {isLightTheme ? 
+                    <li onClick={toggleTheme} className="py-1 px-3 list-none cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <rect height="14" rx="7" ry="7" width="22" x="1" y="5" />
+                    <circle cx="8" cy="12" r="3" />
+                    </svg></li> :
+                    <li onClick={toggleTheme} className="py-1 px-3 list-none cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <rect height="14" rx="7" ry="7" width="22" x="1" y="5" />
+                    <circle cx="16" cy="12" r="3" />
+                    </svg></li>}
+                    
+                    <div
+                    onClick={toggleNav}
+                    className="cursor-pointer ml-2">
 
+                    {!openNav ? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <line x1="3" x2="21" y1="12" y2="12" />
+                    <line x1="3" x2="21" y1="6" y2="6" />
+                    <line x1="3" x2="21" y1="18" y2="18" />
+                    </svg> : 
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <line x1="18" x2="6" y1="6" y2="18" />
+                    <line x1="6" x2="18" y1="6" y2="18" />
+                    </svg>}
+                                    </div>
+                    </div>
+                
+                 </div>
+
+                    {/* Small screen */}
                 { <div className={`relative md:hidden w-full ${openNav ? 'slide' : 'out'}`}>
                 <div style={{ color: navThem.bg, background: navThem.textColor}} className="absolute list-none w-full top-5 font-semibold p-3 left-0">
                     {navItems.map((i, index) => (
                         <a key={index} className='py-2 hover:bg-gray-400 px-3 block' href={i.path}>{i.name}</a>
                     ))}
                     
-                    {isLightTheme ? 
-                    <li onClick={toggleTheme} className="py-1 px-3 cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <rect height="14" rx="7" ry="7" width="22" x="1" y="5" />
-                    <circle cx="8" cy="12" r="3" />
-                    </svg></li> :
-                    <li onClick={toggleTheme} className="py-1 px-3 cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <rect height="14" rx="7" ry="7" width="22" x="1" y="5" />
-                    <circle cx="16" cy="12" r="3" />
-                    </svg></li>}
+                    
                 </div>
                 </div>}  
 

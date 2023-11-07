@@ -15,7 +15,7 @@ import css from '../img/icon/css3.svg'
 
 export default function Carousel(){
     const settings = {
-        dots: false,
+        dots: true,
         arrows: false,
         fade: true,
         infinite: true,

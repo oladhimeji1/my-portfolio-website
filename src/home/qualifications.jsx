@@ -35,7 +35,7 @@ export default function Qualification() {
                                     <h3 className="text-lg font-semibold">Bsc Computer Science</h3>
                                     <span className="inline-block font-semibold"> Federal University Lokoja </span>
                                     <div className="text-sm qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2019-2022
+                                    <i className="uil uil-calendar-alt"></i> -2023
                                     </div>
                                 </div>
 
@@ -52,19 +52,19 @@ export default function Qualification() {
                                     <span style={{ backgroundColor: theme.textColor}} className="h-full w-[1px] block bg-white translate-x-[5px] translate-y-[-6px]"></span>
                                 </div>
                                 <div>
-                                    <h3 className="text-lg font-semibold">Microsoft Powerplatform</h3>
-                                    <span className="inline-block font-semibold text-sm"> Tech Mahindra </span>
+                                    <h3 className="text-lg font-semibold">GDSC Core Team Member</h3>
+                                    <span className="inline-block font-semibold text-sm"> Tech Team </span>
                                     <div className="text-sm qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2021
+                                    <i className="uil uil-calendar-alt"></i> -2023
                                     </div>
                                 </div>
                             </div>
                             <div className="grid grid-cols-[1fr_max-content_1fr] gap-6">
                                 <div>
-                                    <h3 className="text-lg font-semibold">GDSC Core Team Member</h3>
-                                    <span className="inline-block font-semibold text-sm"> Tech Team </span>
+                                    <h3 className="text-lg font-semibold">Microsoft Powerplatform</h3>
+                                    <span className="inline-block font-semibold text-sm"> Microsoft Bootcamp </span>
                                     <div className="text-sm qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2023
+                                    <i className="uil uil-calendar-alt"></i> -2021
                                     </div>
                                 </div>
 
@@ -83,8 +83,8 @@ export default function Qualification() {
                             <div className="mt-5 grid grid-cols-[1fr_max-content_1fr] gap-6">
                                 <div>
                                     <h3 className="text-lg font-medium">Konectar Nig. Ltd</h3>
-                                    <span className="inline-block font-semibold text-sm text-md">Software Developer</span>
-                                    <div className="text-sm mt-3">
+                                    <span className="inline-block font-semibold text-sm text-md">Frontend Developer</span>
+                                    <div className="text-sm mt-1">
                                     <i className="uil uil-calendar-alt"></i> 2023 - Present
                                     </div>
                                 </div>
@@ -111,7 +111,7 @@ export default function Qualification() {
                             </div>
                             <div className=" grid grid-cols-[1fr_max-content_1fr] gap-6">
                                 <div>
-                                    <h3 className="text-lg font-semibold">Enovellab</h3>
+                                    <h3 className="text-lg font-semibold">Enovellab Nig. Ltd.</h3>
                                     <span className="inline-block font-semibold text-sm">Frontend Developer (intern) </span>
                                     <div className="text-sm qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2023 - Present

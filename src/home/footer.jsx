@@ -12,9 +12,10 @@ export default function Footer(){
     const { isLightTheme, light, dark } = useContext(ThemeContext);
     const theme = isLightTheme ? light : dark;
     return(
-        <div className="py-10 border-t" style={{ color: theme.textColor, background: theme.bg }}>
+        <div className="" style={{ color: theme.textColor, background: theme.bg }}>
+            <hr />
             <Container>
-                <section className="h-full block md:flex justify-between items-center" id="">
+                <section className="py-10 h-full block md:flex justify-between items-center" id="">
                     <div className="flex items-center gap-10">
                         <p className="">All rights reserved &copy; 2023</p>
                         <p></p>

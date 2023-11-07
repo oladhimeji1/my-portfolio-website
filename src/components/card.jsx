@@ -3,7 +3,7 @@ import tailwind from '../img/icon/tailwind.png'
 export default function Card(props) {
     
     return (
-        <div className="card relative w-[220px] h-[300px] pb-[20px]">
+        <div className="card relative md:w-[220px] w-full md:h-[300px] h-[400px] pb-[20px]">
             <div className="card-header">
             <div className="card-header-bar">
                 <a href={ props.project.previewLink } className="w-6 h-6 inline-block mt-4 mr-3 float-right">
@@ -25,7 +25,7 @@ export default function Card(props) {
     
             <div className="absolute z-1 w-full right-0 left-0 -bottom-[1px]">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200"><path className="polygon" fill={`${props.theme.bg}`} d="M-20,200,1000,0V200Z" /></svg>
-                <a href="#" className="btn-follow animate-spin"><span className="sr-only">Follow</span></a>
+                {/* <a href="#" className="btn-follow animate-spin"><span className="sr-only">Follow</span></a> */}
             </div>
             </div>
     

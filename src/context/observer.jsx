@@ -13,7 +13,7 @@ export default function ObserverContextProvider(props){
             // update state with the visible id
             if(visibleSection) {
                 setActiveSection(visibleSection.id);
-                console.log(visibleSection.id)
+                // console.log(visibleSection.id)
             }
         });
 
