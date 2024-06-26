@@ -50,17 +50,17 @@ export default function Carousel(){
 
                                         <div id="about" className="flex gap-5">
                                             
-                                            <img src={html} className="w-10 md:leading-[4rem] leading-[3rem] md:mb-10 my-5" alt="" />
+                                            <img src={html} className="md:w-10 w-7 md:leading-[4rem] leading-[3rem] md:mb-10 my-5" alt="" />
                                             
-                                            <img src={css} className="w-10 md:leading-[4rem] leading-[3rem] md:mb-10 my-5" alt="" />
+                                            <img src={css} className="md:w-10 w-7 md:leading-[4rem] leading-[3rem] md:mb-10 my-5" alt="" />
 
-                                            <img src={js} className="w-10 md:leading-[4rem] leading-[3rem] md:mb-10 my-5" alt="" />
+                                            <img src={js} className="md:w-10 w-7 md:leading-[4rem] leading-[3rem] md:mb-10 my-5" alt="" />
 
-                                            <img src={react} className="w-10 md:leading-[4rem] leading-[3rem] md:mb-10 my-5" alt="" />
+                                            <img src={react} className="md:w-10 w-7 md:leading-[4rem] leading-[3rem] md:mb-10 my-5" alt="" />
 
-                                            <img src={node} className="w-10 md:leading-[4rem] leading-[3rem] md:mb-10 my-5" alt="" />
+                                            <img src={node} className="md:w-10 w-7 md:leading-[4rem] leading-[3rem] md:mb-10 my-5" alt="" />
 
-                                            <img src={reactnative} className="w-10 md:leading-[4rem] leading-[3rem] md:mb-10 my-5" alt="" />
+                                            <img src={reactnative} className="md:w-10 w-7 md:leading-[4rem] leading-[3rem] md:mb-10 my-5" alt="" />
                                         </div>
                                     </div>
                                 </div>
