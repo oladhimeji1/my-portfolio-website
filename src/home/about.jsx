@@ -41,7 +41,7 @@ export default function About() {
                                 I am dedicated to keeping up with the latest trends and techniques in both web and mobile development, and I am constantly learning and expanding my skills set. I have a keen eye for details and strive for perfection in every project I work on.
                                 When I'm not coding, I enjoy exploring new technologies, trends and work on side projects. 
                                 I graduated with BSc Computer Science, from Federal University Lokoja.</p>
-                                <div className="flex gap-16 bg-red-400 md:gap-32 justify-center mt-5">
+                                <div className="flex gap-10 md:gap-32 justify-center mt-5">
                                     <div className="text-center">
                                         <h2 style={{ color: theme.bold }} className="text-3xl font-bold">{year}+</h2>
                                         <p className="text-sm">Years experience</p>
