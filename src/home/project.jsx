@@ -10,6 +10,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
+import caretD from '../img/icon/chevron-down.svg';
+import caretU from '../img/icon/chevron-up.svg';
+
 
 export default function Project() {
 
@@ -39,11 +42,16 @@ export default function Project() {
                         ))}
                     </div>
                         
-                    <div onClick={onHandleBtn} className="max-w-full mt-5 animate-bounce font-semibold">
+                    <div onClick={onHandleBtn} className="max-w-full cursor-pointer mt-5 animate-bounce font-semibold">
                         <a className="inline">{all}
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 inline" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            {all === 'See all' ? 
+                                <img src={caretD} className="w-6 inline" alt="" /> :
+                                <img src={caretU} className="w-6 inline" alt="" />
+                            }
+                        {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 inline" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                         <polyline points="9 18 15 12 9 6" />
-                        </svg></a>
+                        </svg> */}
+                        </a>
                     </div>
                 </section>
             </Container>

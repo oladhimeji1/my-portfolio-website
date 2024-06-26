@@ -21,42 +21,83 @@ export const data = [
 export const projects = [
     {
         id: 1,
-        title: 'Proinvestors',
-        desc: 'Proinvestor is a website that help connect investors and businesses together',
-        type: 'Internship task',
-        stack: ['css', 'js', 'react'],
-        previewLink: 'https://proinvestors.netlify.app',
-        githubLink: 'git',
-        img: logo
+        title: 'Project tracker',
+        desc: 'A web app that allows a school to track their teachers progress of each topic for every subject.',
+        type: 'Product',
+        stack: ['html', 'css', 'js', 'node'],
+        previewLink: 'https://topic-progress-tracker.netlify.app/',
+        githubLink: 'github',
+        img: 'https://res.cloudinary.com/duoowadag/image/upload/v1719399702/cloudinary/klskzjwma3bwyvlsle3d.png'
     },
     {
         id: 2,
         title: 'Projectversity',
         desc: 'A web app that helps students in tertiary institutions find research papers, projects or project ideas, buy and also sell their final year projects. It also connect student to developers or project writers.',
-        type: 'Personal project',
-        stack:['react', 'css', 'js', 'tailwindcss'],
-        previewLink: 'link',
-        githubLink: 'github',
-        img: logo2
+        type: 'Product',
+        stack:['react', 'node', 'mongdb', 'tailwindcss'],
+        previewLink: 'https://www.projectversity.com/',
+        githubLink: '',
+        img: 'https://res.cloudinary.com/duoowadag/image/upload/v1719399867/cloudinary/xeidmgwsjkkd3m8ud7ur.png'
     },
     {
         id: 3,
-        title: 'Car-rentals',
-        desc: 'An app that allows users/customers to rent cars for their personal/commercial use.',
-        type: 'Personal project',
-        stack: ['react', 'html', 'js'],
-        previewLink: 'link',
-        githubLink: 'github',
-        img: tailwind
+        title: "Jenny's website",
+        desc: 'A beauty salon website that specialises in spa, body massage, fat dissolving, acupuncture etc.',
+        type: 'Product',
+        stack:['html', 'css', 'js',],
+        previewLink: 'https://facebyjenny.com/',
+        githubLink: '',
+        img: 'https://res.cloudinary.com/duoowadag/image/upload/v1719401073/cloudinary/kdxsbbbaekul8o4de8ns.png'
     },
     {
         id: 4,
-        title: 'Attedance-based facial recognition',
-        desc: 'This project (final year projct) allows lecturers take their students attendance via facial recognition.',
+        title: "SPEDG NGO's website",
+        desc: 'An NGO organisatinal website for donation and help seeking',
+        type: 'Product',
+        stack:['react', 'node', 'tailwindcss'],
+        previewLink: 'https://spedg.org.ng/',
+        githubLink: '',
+        img: 'https://res.cloudinary.com/duoowadag/image/upload/v1719401074/cloudinary/rzzqaclyyl4dwtho6mko.png'
+    },
+    {
+        id: 5,
+        title: "Gitech Hub website",
+        desc: 'A co-working space and office rentage website owned by Gitech Consult Nig. Ltd',
+        type: 'Product',
+        stack:['html', 'css', 'js', 'node'],
+        previewLink: 'https://gitechhub.com.ng/',
+        githubLink: '',
+        img: 'https://res.cloudinary.com/duoowadag/image/upload/v1719401075/cloudinary/rsdq1hxqsnadpapyluep.png'
+    },
+    {
+        id: 6,
+        title: 'Proinvestors',
+        desc: 'Proinvestor is a website that help connect investors and businesses together',
+        type: 'Internship task',
+        stack: ['react', 'tailwindcss'],
+        previewLink: 'https://proinvestors.netlify.app/',
+        githubLink: 'git',
+        img: 'https://res.cloudinary.com/duoowadag/image/upload/v1719399661/cloudinary/pyeoo9qnsbzuu2ueoviu.png'
+    },
+    {
+        id: 7,
+        title: 'Car-rentals',
+        desc: 'An app that allows users/customers to rent cars for their personal/commercial use.',
         type: 'Personal project',
-        stack: [''],
+        stack: ['php', 'js', 'css'],
+        previewLink: 'http://my-project-carrental.000webhostapp.com/',
+        githubLink: 'github',
+        img: 'https://res.cloudinary.com/duoowadag/image/upload/v1719399704/cloudinary/jtvr1srg3xvxdsw3rlaz.png'
+    },
+    {
+        id: 8,
+        title: 'Attedance-based facial recognition',
+        desc: 'This project allows lecturers take their students attendance via facial recognition.',
+        type: 'Final year project',
+        stack: ['python', 'html', 'css'],
         previewLink: 'link',
-        githubLink: 'github'
+        githubLink: 'github',
+        img: ''
     },
 ]
 
