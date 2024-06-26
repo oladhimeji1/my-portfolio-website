@@ -1,16 +1,19 @@
+import tailwind from '../img/icon/tailwind.png'
+import logo from '../img/icon/logo.jpg'
+import logo2 from '../img/icon/logo2.jpg'
 
 export const data = [
     {
         id: 1,
-        title: "I'm Abdulrazaq Oladimeji",
+        title: "I am Abdulrazaq Oladimeji",
         desc: "I have passion for building intuitive, user-friendly interfaces that provide an enjoyable and seamless user experience.",
-        img: 'https://res.cloudinary.com/dqjkwyzgx/image/upload/v1696166885/IMG_1041_i7pdzc.jpg',
+        img: 'https://res.cloudinary.com/duoowadag/image/upload/v1719387296/cloudinary/ml7txsbhwmsu8nsb6ptw.jpg',
     },
     {
         id: 2,
         title: 'Frontend ReactJs Developer',
         desc: 'I write clean, readable, scalable and reuseable codes.',
-        img: 'https://res.cloudinary.com/dqjkwyzgx/image/upload/v1696166885/dim_wzowte.jpg',
+        img: 'https://res.cloudinary.com/duoowadag/image/upload/v1719387295/cloudinary/fe2frzacjmt0sejmrzau.jpg',
     },
 ]
 
@@ -23,7 +26,8 @@ export const projects = [
         type: 'Internship task',
         stack: ['css', 'js', 'react'],
         previewLink: 'https://proinvestors.netlify.app',
-        githubLink: 'git'
+        githubLink: 'git',
+        img: logo
     },
     {
         id: 2,
@@ -32,7 +36,8 @@ export const projects = [
         type: 'Personal project',
         stack:['react', 'css', 'js', 'tailwindcss'],
         previewLink: 'link',
-        githubLink: 'github'
+        githubLink: 'github',
+        img: logo2
     },
     {
         id: 3,
@@ -41,7 +46,8 @@ export const projects = [
         type: 'Personal project',
         stack: ['react', 'html', 'js'],
         previewLink: 'link',
-        githubLink: 'github'
+        githubLink: 'github',
+        img: tailwind
     },
     {
         id: 4,

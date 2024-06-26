@@ -28,7 +28,7 @@ export default function Qualification() {
                         {/* Work */}
                         <div data-aos='fade-right' className="">
                         <div className="flex mt-5 justify-center">
-                            <h3 style={{ color: theme.bold }} className="font-semibold text-xl">Education</h3>
+                            <h3 style={{ color: theme.bold }} className="font-semibold text-xl">Education & Certification</h3>
                         </div>
                             <div className="mt-5 grid grid-cols-[1fr_max-content_1fr] gap-6">
                                 <div>
@@ -61,10 +61,10 @@ export default function Qualification() {
                             </div>
                             <div className="grid grid-cols-[1fr_max-content_1fr] gap-6">
                                 <div>
-                                    <h3 className="text-lg font-semibold">Microsoft Powerplatform</h3>
-                                    <span className="inline-block font-semibold text-sm"> Microsoft Bootcamp </span>
+                                    <h3 className="text-lg font-semibold">Frontend Web Developer</h3>
+                                    <span className="inline-block font-semibold text-sm">Gitech coding acaddemy </span>
                                     <div className="text-sm qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> -2021
+                                    <i className="uil uil-calendar-alt"></i> - 2022
                                     </div>
                                 </div>
 
@@ -73,19 +73,50 @@ export default function Qualification() {
                                     <span style={{ backgroundColor: theme.textColor}} className="h-full w-[1px] block bg-white translate-x-[5px] translate-y-[-6px]"></span>
                                 </div>
                             </div>
+
+                            <div className=" grid grid-cols-[1fr_max-content_1fr] gap-6">
+
+                                <div></div>
+                                <div className="mt-1">
+                                    <span style={{ backgroundColor: theme.textColor}} className="inline-block w-3 h-3 rounded-full bg-white"></span>
+                                    <span style={{ backgroundColor: theme.textColor}} className="h-full w-[1px] block bg-white translate-x-[5px] translate-y-[-6px]"></span>
+                                </div>
+                                <div>
+                                    <h3 className="text-lg font-semibold">Microsoft Powerplatform</h3>
+                                    <span className="inline-block font-semibold text-sm"> Microsoft Bootcamp </span>
+                                    <div className="text-sm qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i> - 2021
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         {/* Education */}
                         <div data-aos='fade-left' className="">
                         <div className="flex mt-14 md:mt-5 justify-center">
-                            <h3 style={{ color: theme.bold }} className="font-semibold text-xl">Work Experience</h3> 
+                            <h3 style={{ color: theme.bold }} className="font-semibold text-xl">Work Experience</h3>
                         </div>
-                            <div className="mt-5 grid grid-cols-[1fr_max-content_1fr] gap-6">
+                        <div className="mt-5 grid grid-cols-[1fr_max-content_1fr] gap-6">
+
+                            <div></div>
+                            <div className="mt-1">
+                                <span style={{ backgroundColor: theme.textColor}} className="inline-block w-3 h-3 rounded-full bg-white"></span>
+                                <span style={{ backgroundColor: theme.textColor}} className="h-full w-[1px] block bg-white translate-x-[5px] translate-y-[-6px]"></span>
+                            </div>
+                            <div>
+                                <h3 className="text-lg font-semibold">Noble Guide Academy - NYSC</h3>
+                                <span className="inline-block font-semibold text-sm">IT Consultant</span>
+                                <div className="text-sm qualification__calender">
+                                <i className="uil uil-calendar-alt"></i> 2024 - Present
+                                </div>
+                            </div>
+                        </div>
+                            <div className="grid grid-cols-[1fr_max-content_1fr] gap-6">
                                 <div>
                                     <h3 className="text-lg font-medium">Konectar Nig. Ltd</h3>
                                     <span className="inline-block font-semibold text-sm text-md">Frontend Developer</span>
                                     <div className="text-sm mt-1">
-                                    <i className="uil uil-calendar-alt"></i> 2023 - Present
+                                    <i className="uil uil-calendar-alt"></i> 2023 - 2024
                                     </div>
                                 </div>
 
@@ -105,7 +136,7 @@ export default function Qualification() {
                                     <h3 className="text-lg font-semibold">Spexes Consulting Nig. Ltd</h3>
                                     <span className="inline-block font-semibold text-sm">Frontend Developer</span>
                                     <div className="text-sm qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2023 - Present
+                                    <i className="uil uil-calendar-alt"></i> - 2023
                                     </div>
                                 </div>
                             </div>
@@ -114,7 +145,7 @@ export default function Qualification() {
                                     <h3 className="text-lg font-semibold">Enovellab Nig. Ltd.</h3>
                                     <span className="inline-block font-semibold text-sm">Frontend Developer (intern) </span>
                                     <div className="text-sm qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2023 - Present
+                                    <i className="uil uil-calendar-alt"></i> 2023 - 2024
                                     </div>
                                 </div>
 
@@ -132,7 +163,36 @@ export default function Qualification() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-semibold">Gitech Nig. Ltd</h3>
-                                    <span className="inline-block font-semibold text-sm">Frontend Developer/Instructor</span>
+                                    <span className="inline-block font-semibold text-sm">Frontend Developer</span>
+                                    <div className="text-sm qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                    </div>
+                                </div>
+                            </div>
+                            <div className=" grid grid-cols-[1fr_max-content_1fr] gap-6">
+                                <div>
+                                    <h3 className="text-lg font-semibold">Gitech Nig. Ltd</h3>
+                                    <span className="inline-block font-semibold text-sm">Coding instructor </span>
+                                    <div className="text-sm qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i> 2022
+                                    </div>
+                                </div>
+
+                                <div className="mt-1">
+                                    <span style={{ backgroundColor: theme.textColor}} className="inline-block w-3 h-3 rounded-full"></span>
+                                    <span style={{ backgroundColor: theme.textColor}} className="h-full w-[1px] block translate-x-[5px] translate-y-[-6px]"></span>
+                                </div>
+                            </div>
+                            <div className=" grid grid-cols-[1fr_max-content_1fr] gap-6">
+
+                                <div></div>
+                                <div className="mt-1">
+                                    <span style={{ backgroundColor: theme.textColor}} className="inline-block w-3 h-3 rounded-full bg-white"></span>
+                                    <span style={{ backgroundColor: theme.textColor}} className="h-full w-[1px] block bg-white translate-x-[5px] translate-y-[-6px]"></span>
+                                </div>
+                                <div>
+                                    <h3 className="text-lg font-semibold">HNG intenship</h3>
+                                    <span className="inline-block font-semibold text-sm">Frontend Developer (intern)</span>
                                     <div className="text-sm qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2022
                                     </div>
@@ -140,10 +200,10 @@ export default function Qualification() {
                             </div>
                             <div className=" grid grid-cols-[1fr_max-content_1fr] gap-6">
                                 <div>
-                                    <h3 className="text-lg font-semibold">HNG</h3>
-                                    <span className="inline-block font-semibold text-sm">Frontend Developer (intern) </span>
+                                    <h3 className="text-lg font-semibold">Kondipress Nig. Ltd</h3>
+                                    <span className="inline-block font-semibold text-sm">Frontend/Wordpress Dev.</span>
                                     <div className="text-sm qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2022
+                                    <i className="uil uil-calendar-alt"></i> 2021 - Present
                                     </div>
                                 </div>
 

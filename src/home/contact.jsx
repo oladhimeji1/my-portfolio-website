@@ -1,47 +1,81 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Container from "../components/container";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { ThemeContext } from '../context/theme';
-import { useContext } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { ThemeContext } from "../context/theme";
+import { useContext } from "react";
 
-export default function Contact(){
-    useEffect(()=>{
-        AOS.init({duration: 1000})
-    }, []);
-    const { isLightTheme, light, dark, toggleTheme } = useContext(ThemeContext);
-    const theme = isLightTheme ? light : dark;
-    return (
-        <div className="pt-20 pb-5" data-section id="contact" style={{ color: theme.textColor, background: theme.bg}}>
-            <Container>
-                <section id="about">
-                    <div className="text-center">
-                        <h1 data-aos='fade-down' style={{ color: theme.bold}} className="font-bold text-5xl pb-3">Contact Me</h1>
-                        <p data-aos='fade-up' className="text-lg">Get in touch, let me work for you</p>
-                    </div>
+export default function Contact() {
 
-                    <div className="block md:flex gap-10 mt-5 justify-center">
-                    <a href="https://wa.me/+2347087380348" target="_blank" rel="noopener noreferrer">
-                        <div className="flex transform hover:scale-125 transition-all items-center md:justify-normal justify-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none">
-  <path d="M6.579 8.121c.209-.663.778-1.457 1.19-1.66.183-.09.319-.11.763-.11.522 0 .548.005.684.14.088.095.328.606.673 1.432.292.71.533 1.315.533 1.347 0 .146-.293.61-.627 1.002-.23.267-.365.47-.365.543 0 .068.167.381.376.69.506.757 1.44 1.696 2.167 2.177.568.376 1.582.867 1.785.867.152 0 .429-.272.992-.982.23-.287.434-.495.512-.511.068-.021.235.005.37.057.392.152 2.371 1.117 2.476 1.211.203.188.037 1.264-.267 1.702-.464.68-1.79 1.259-2.663 1.17-.636-.068-2.14-.564-3.117-1.029-1.253-.6-2.574-1.697-3.644-3.038-.611-.763-1.227-1.692-1.493-2.246-.36-.751-.491-1.331-.455-2 .016-.287.068-.631.11-.762Z" fill="#25D366" />
-  <path clip-rule="evenodd" d="M.606 9.5C1.582 4.491 5.576.76 10.709.06c.705-.1 2.684-.068 3.368.046.715.126 1.66.371 2.24.59 3.832 1.426 6.663 4.72 7.466 8.683.35 1.729.272 3.755-.203 5.457-1.133 4.03-4.423 7.205-8.511 8.218-2.663.658-5.462.37-7.983-.81l-.617-.292-3.226 1.029C1.473 23.545.01 23.994 0 23.983c-.01-.01.45-1.415 1.029-3.112l1.05-3.096-.424-.84C.48 14.569.12 12.01.605 9.498Zm21.172-.408c-1.028-3.76-4.297-6.626-8.145-7.148-2.099-.282-4.078.037-5.9.956-4.417 2.234-6.522 7.341-4.93 11.957.204.59.752 1.702 1.092 2.213l.271.408-.605 1.775a69.688 69.688 0 0 0-.606 1.817c0 .026.84-.224 1.864-.548a99.767 99.767 0 0 1 1.9-.596c.022 0 .225.11.45.24 2.428 1.447 5.456 1.76 8.187.852a9.927 9.927 0 0 0 6.48-6.945 9.998 9.998 0 0 0-.058-4.98Z" fill="#25D366" fill-rule="evenodd" />
-</svg>
-                            <div className="">
-                                <p className="">+234 708 738 0348</p>
-                            </div>
-                        </div>
-                        </a>
-                        <div className="flex justify-center md:justify-normal">
-                            {/* Icon */}
-                            <div className="">
-                                <h3 className="">Email</h3>
-                                <p className="">abdulrazaq2a@gmail.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </Container>
-        </div>
-    )
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+  const { isLightTheme, light, dark, toggleTheme } = useContext(ThemeContext);
+  const theme = isLightTheme ? light : dark;
+  return (
+    <div
+      className="pt-20 pb-5"
+      data-section
+      id="contact"
+      style={{ color: theme.textColor, background: theme.bg }}
+    >
+      <Container>
+        <section id="about">
+          <div className="text-center">
+            <h1
+              data-aos="fade-down"
+              style={{ color: theme.bold }}
+              className="font-bold text-5xl pb-3"
+            >
+              Contact Me
+            </h1>
+            <p data-aos="fade-up" className="text-lg">
+              Get in touch, let me work for you
+            </p>
+          </div>
+
+          <div className="block md:flex gap-10 mt-5 justify-center">
+            <a
+              href="https://wa.me/message/C3R6WT4ZGPVEN1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex transform hover:scale-125 transition-all items-center md:justify-normal justify-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  class="main-grid-item-icon"
+                  fill="none"
+                >
+                  <path
+                    d="M6.579 8.121c.209-.663.778-1.457 1.19-1.66.183-.09.319-.11.763-.11.522 0 .548.005.684.14.088.095.328.606.673 1.432.292.71.533 1.315.533 1.347 0 .146-.293.61-.627 1.002-.23.267-.365.47-.365.543 0 .068.167.381.376.69.506.757 1.44 1.696 2.167 2.177.568.376 1.582.867 1.785.867.152 0 .429-.272.992-.982.23-.287.434-.495.512-.511.068-.021.235.005.37.057.392.152 2.371 1.117 2.476 1.211.203.188.037 1.264-.267 1.702-.464.68-1.79 1.259-2.663 1.17-.636-.068-2.14-.564-3.117-1.029-1.253-.6-2.574-1.697-3.644-3.038-.611-.763-1.227-1.692-1.493-2.246-.36-.751-.491-1.331-.455-2 .016-.287.068-.631.11-.762Z"
+                    fill="#25D366"
+                  />
+                  <path
+                    clip-rule="evenodd"
+                    d="M.606 9.5C1.582 4.491 5.576.76 10.709.06c.705-.1 2.684-.068 3.368.046.715.126 1.66.371 2.24.59 3.832 1.426 6.663 4.72 7.466 8.683.35 1.729.272 3.755-.203 5.457-1.133 4.03-4.423 7.205-8.511 8.218-2.663.658-5.462.37-7.983-.81l-.617-.292-3.226 1.029C1.473 23.545.01 23.994 0 23.983c-.01-.01.45-1.415 1.029-3.112l1.05-3.096-.424-.84C.48 14.569.12 12.01.605 9.498Zm21.172-.408c-1.028-3.76-4.297-6.626-8.145-7.148-2.099-.282-4.078.037-5.9.956-4.417 2.234-6.522 7.341-4.93 11.957.204.59.752 1.702 1.092 2.213l.271.408-.605 1.775a69.688 69.688 0 0 0-.606 1.817c0 .026.84-.224 1.864-.548a99.767 99.767 0 0 1 1.9-.596c.022 0 .225.11.45.24 2.428 1.447 5.456 1.76 8.187.852a9.927 9.927 0 0 0 6.48-6.945 9.998 9.998 0 0 0-.058-4.98Z"
+                    fill="#25D366"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <div className="">
+                <p className="">Whatsapp me</p>
+                </div>
+              </div>
+            </a>
+            <div className="flex justify-center md:justify-normal">
+              {/* Icon */}
+              {/* <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 172 172" ><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#1fb141"><path d="M21.5,21.5v129h64.5v-32.25v-64.5v-32.25zM86,53.75c0,17.7805 14.4695,32.25 32.25,32.25c17.7805,0 32.25,-14.4695 32.25,-32.25c0,-17.7805 -14.4695,-32.25 -32.25,-32.25c-17.7805,0 -32.25,14.4695 -32.25,32.25zM118.25,86c-17.7805,0 -32.25,14.4695 -32.25,32.25c0,17.7805 14.4695,32.25 32.25,32.25c17.7805,0 32.25,-14.4695 32.25,-32.25c0,-17.7805 -14.4695,-32.25 -32.25,-32.25z"></path></g></g></svg> */}
+              <div className="">
+                <h3 className="">Email</h3>
+                <p className="">abdulrazaq2a@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </Container>
+    </div>
+  );
 }
