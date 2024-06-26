@@ -22,7 +22,7 @@ export default function About() {
     const { isLightTheme, light, dark } = useContext(ThemeContext);
     const theme = isLightTheme ? light : dark;
     return (
-        <div className="pt-10 overflow-hidden" style={{ color: theme.textColor, background: theme.bg}}>
+        <div className="pt-10 overflow-x-hidden" style={{ color: theme.textColor, background: theme.bg}}>
             <Container>
                 <section data-section id="about">
                     <div className="text-center">
@@ -41,7 +41,7 @@ export default function About() {
                                 I am dedicated to keeping up with the latest trends and techniques in both web and mobile development, and I am constantly learning and expanding my skills set. I have a keen eye for details and strive for perfection in every project I work on.
                                 When I'm not coding, I enjoy exploring new technologies, trends and work on side projects. 
                                 I graduated with BSc Computer Science, from Federal University Lokoja.</p>
-                                <div className="flex gap-7 md:gap-32 justify-center mt-5">
+                                <div className="flex w-full justify-between md:gap-32 md:justify-center mt-5">
                                     <div className="text-center">
                                         <h2 style={{ color: theme.bold }} className="text-3xl font-bold">{year}+</h2>
                                         <p className="text-sm">Years experience</p>
