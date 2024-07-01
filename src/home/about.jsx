@@ -37,7 +37,7 @@ export default function About() {
                         <div data-aos='fade-left' className="max-w-[550px]">
                             <div className="md:px-2 pb-5 md:pb-0 mt-5 md:mt-0">
                                 
-                                <p className="text-lg text-justify">I have {year}+ years of experience and a deep understanding of various web technologies such as HTML5, CSS3, JavaScript ES7 & jQuery, NodeJs, MERN, ReactJs, MongoDB, MySQL, Wordpress, etc and mobile techniques such as React Native, firebase.
+                                <p className="text-lg text-justify">I have {year}+ years of experience and a deep understanding of various web technologies such as HTML5, CSS3, JavaScript ES7 & jQuery, NodeJs, MERN, ReactJs, MongoDB, MySQL, Wordpress, etc and mobile technologies such as React Native, firebase.
                                 I am dedicated to keeping up with the latest trends and techniques in both web and mobile development, and I am constantly learning and expanding my skills set. I have a keen eye for details and strive for perfection in every project I work on.
                                 When I'm not coding, I enjoy exploring new technologies, trends and work on side projects. 
                                 I graduated with BSc Computer Science, from Federal University Lokoja.</p>
