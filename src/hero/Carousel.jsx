@@ -16,6 +16,7 @@ import js from '../img/icon/javascript.svg'
 import react from '../img/icon/react.svg'
 import css from '../img/icon/css3.svg'
 import html from '../img/icon/html.svg'
+import TypingEffect from "../components/typingEffect";
 
 
 export default function Carousel(){
@@ -45,7 +46,8 @@ export default function Carousel(){
                             <div className={`md:flex justify-between flex-col-reverse md:flex-row flex mt-7 md:mt-0 items-center md:h-[90vh] h-full w-full`}>
                                 <div className="flex justify-center w-[90%] items-center">
                                     <div data-aos='fade-right' className="aos-item" data-aos-mirror='true'>
-                                        <h1 style={{ color: theme.bold }} className="md:text-[50px] text-[40px] md:leading-[4rem] leading-[3rem] md:mb-10 my-5 font-bold">{ item.title }</h1>
+                                        <TypingEffect text = {item.title} />
+                                        {/* <h1 style={{ color: theme.bold }} className="md:text-[50px] text-[40px] md:leading-[4rem] leading-[3rem] md:mb-10 my-5 font-bold">{ item.title }</h1> */}
                                         <p className="text-lg">{ item.desc }</p>
 
                                         <div id="about" className="flex gap-5">
