@@ -15,6 +15,12 @@ export const data = [
         desc: 'I write clean, readable, scalable and reuseable codes.',
         img: 'https://res.cloudinary.com/duoowadag/image/upload/v1719387295/cloudinary/fe2frzacjmt0sejmrzau.jpg',
     },
+    {
+        id: 3,
+        title: 'Backend NodeJs Developer',
+        desc: 'I write clean, readable, scalable APIs.',
+        img: 'https://res.cloudinary.com/duoowadag/image/upload/v1724772679/cloudinary/jbodr0crx3lsistuy0ee.png',
+    },
 ]
 
 
