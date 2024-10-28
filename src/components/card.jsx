@@ -32,7 +32,7 @@ export default function Card(props) {
     
             <div className="text-center ">
                 <h2 className="text-2xl text-red font-bold">{ props.project.title }</h2>
-                <h4 className="text-xs">({ props.project.type })</h4>
+                {/* <h4 className="text-xs">({ props.project.type })</h4> */}
                 <div className="px-2 mt-3 text-sm text-justify">{ props.project.desc }
             </div>
             

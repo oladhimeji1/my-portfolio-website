@@ -45,7 +45,7 @@ export default function Carousel(){
                         <div className="" key={item.id}>
                             <div className={`md:flex justify-between flex-col-reverse md:flex-row flex mt-7 md:mt-0 items-center md:h-[90vh] h-full w-full`}>
                                 <div className="flex justify-center w-[90%] items-center">
-                                    <div data-aos='fade-right' className="aos-item" data-aos-mirror='true'>
+                                    <div data-aos='fade-right' className="aos-item mt-20 md:mt-0" data-aos-mirror='true'>
                                         {/* <TypingEffect text = {item.title} /> */}
                                         <h1 style={{ color: theme.bold }} className="md:text-[50px] text-[40px] md:leading-[4rem] leading-[3rem] md:mb-10 my-5 font-bold">{ item.title }</h1>
                                         <p className="text-lg">{ item.desc }</p>
@@ -67,7 +67,7 @@ export default function Carousel(){
                                     </div>
                                 </div>
                                 <div data-aos='fade-left' className="md:h-96 h-60  w-full md:w-[90%]">
-                                    <img src={ item.img } className="h-full w-full md:w-[90%] object-cover md:rounded-3xl" alt="" />
+                                    <img src={ item.img } className="h-[50vh] md:h-full w-full md:w-[90%] object-cover rounded-xl md:rounded-3xl" alt="" />
                                 </div>
                             </div>
                         </div>
