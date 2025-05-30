@@ -25,6 +25,7 @@ export default function About() {
         <div className="pt-10 overflow-x-hidden" style={{ color: theme.textColor, background: theme.bg}}>
             <Container>
                 <section data-section id="about">
+                    <div id="container-92cc75edd7915abadf199e3d07203d17"></div>
                     <div className="text-center">
                         <h1 data-aos='fade-down' data-aos-id='about' style={{ color: theme.bold}} className="font-bold text-5xl pb-3">About Me</h1>
                         <p data-aos='fade-up' className="text-lg">Know more about me</p>
